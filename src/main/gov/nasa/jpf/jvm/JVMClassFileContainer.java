@@ -109,11 +109,11 @@ public abstract class JVMClassFileContainer extends ClassFileContainer {
    * or the Class object associated with the given typeName is not found.
    */
   static String getModuleName(String typeName) {
-    try {
+/*    try {
       return Class.forName(typeName.split("\\$")[0]).getModule().getName();
-    } catch (ClassNotFoundException e) {
+    } catch (ClassNotFoundException e) { */ // req. Java 11
       return null;
-    }
+//    }
   }
 
 }

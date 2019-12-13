@@ -749,7 +749,7 @@ public class MJIEnv {
   }
 
   @SuppressWarnings("removal")
-  @Deprecated(forRemoval = true)
+//  @Deprecated(forRemoval = true)
   public char[] getStringChars (int objRef){
     if (objRef != MJIEnv.NULL) {
       ElementInfo ei = getElementInfo(objRef);

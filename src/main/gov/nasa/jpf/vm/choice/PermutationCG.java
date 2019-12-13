@@ -32,7 +32,7 @@ public class PermutationCG extends ChoiceGeneratorBase<int[]>{
   protected PermutationGenerator pg;
   protected int[] permutation;
   
-  @Deprecated(forRemoval = true)
+//  @Deprecated(forRemoval = true)
   @SuppressWarnings("removal")
   public PermutationCG (PermutationGenerator pg){
     this.pg = pg;

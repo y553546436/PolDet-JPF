@@ -107,7 +107,7 @@ public class DynamicElementInfo extends ElementInfo {
 
   @Override
   @SuppressWarnings("removal")
-  @Deprecated(forRemoval = true)
+//  @Deprecated(forRemoval = true)
   public char[] getStringChars(){
     if (!ClassInfo.isStringClassInfo(ci)) {
       throw new JPFException("object is not of type java.lang.String");
