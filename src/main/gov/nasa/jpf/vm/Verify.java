@@ -349,7 +349,7 @@ public class Verify {
 
 
   public static long getBitFlip (long v, int nBit, int len) {
-      return v;
+      return v; // dummy code
   }
 
   public static long getBitFlip (long v, int nBit) {
