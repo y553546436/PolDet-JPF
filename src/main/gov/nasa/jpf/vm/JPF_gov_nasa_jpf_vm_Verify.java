@@ -433,6 +433,7 @@ public class JPF_gov_nasa_jpf_vm_Verify extends NativePeer {
   }
 
   // explore flipping nBit bits in the lowest len bits of v
+  /*
   @MJI
   public static long getBitFlip__JII__J (MJIEnv env, int clsObjRef, long v, int nBit, int len) {
     assert (nBit <= len);
@@ -469,6 +470,7 @@ public class JPF_gov_nasa_jpf_vm_Verify extends NativePeer {
   public static byte getBitFlip__BI__B (MJIEnv env, int clsObjRef, byte v, int nBit) {
     return (byte) getBitFlip__JII__J(env, clsObjRef, (long)v, nBit, 8);
   }
+  */
 
   static int getIntFromList (MJIEnv env, int[] values){
     ThreadInfo ti = env.getThreadInfo();
