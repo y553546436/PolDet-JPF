@@ -1,6 +1,7 @@
 ## Systematic Bit-Flip Fault Injection and Exploration using Java PathFinder
 
 This is a Google Summber of Code ([GSoC](https://summerofcode.withgoogle.com)) project on extending the Java PathFinder project ([JPF](https://github.com/javapathfinder/jpf-core)). The project is done by Pu (Luke) Yi, under the supervison of Profs. Cyrille Artho and Pavel Parízek.
+The project code is publicly available at [this PR](https://github.com/y553546436/jpf-core/pull/10).
 
 ### Project Overview
 
@@ -25,4 +26,8 @@ The project uses Java PathFinder to systematically inject and explore bit-flip f
 #### Testing and Examples
 
 1. JPF tests. We write a JPF test class [BitFlipTest](https://github.com/y553546436/jpf-core/blob/FaultInjection/src/tests/gov/nasa/jpf/test/mc/data/BitFlipTest.java), which contains 16 regression tests that checks the bit flip injection mechanism and also documents the basic usage.
-2. We also create a [repository](https://github.com/y553546436/Fault-Injection-Examples) to show the usage of our tool for Cyclic redundancy check ([CRC](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)) and International Standard Book Number ([ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number)) algorithms. You can use our tool to see how resilient these algorithms are against bit flip fault.
+2. We also created a [repository](https://github.com/y553546436/Fault-Injection-Examples) to show the usage of our tool for Cyclic redundancy check ([CRC](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)) and International Standard Book Number ([ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number)) algorithms. You can use our tool to see how resilient these algorithms are against bit flip fault.
+
+#### Future Plan
+
+It would be worthwhile to try out Symbolic PathFinder ([SPF](https://github.com/SymbolicPathFinder/jpf-symbc)) to see how symbolic execution can help speed up the exploration of all possible bit flips.
