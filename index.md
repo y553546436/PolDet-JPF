@@ -1,7 +1,7 @@
 ## Systematic Bit-Flip Fault Injection and Exploration using Java PathFinder
 
 This is a Google Summber of Code ([GSoC](https://summerofcode.withgoogle.com)) project on extending the Java PathFinder project ([JPF](https://github.com/javapathfinder/jpf-core)). The project is done by Pu (Luke) Yi, under the supervison of Profs. Cyrille Artho and Pavel Parízek.
-The project code is publicly available at [this PR](https://github.com/y553546436/jpf-core/pull/10).
+The project code is publicly available at [this PR](https://github.com/javapathfinder/jpf-core/pull/295).
 
 ### Project Overview
 
