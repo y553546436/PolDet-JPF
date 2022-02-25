@@ -25,7 +25,7 @@ import gov.nasa.jpf.vm.ThreadList;
  */
 public class Error {
 
-  int            id;
+  private int            id;
   
   Property       property;
   private String errorMessage;
